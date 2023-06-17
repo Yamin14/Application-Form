@@ -1,0 +1,97 @@
+<!--   HTML code    -->
+
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css"/>
+		<script src="./js/script.js"></script>
+
+	</head>
+	
+	<body>
+		<h1>Application Form</h1><br><br>
+		
+		<section>
+			<form action="https://www.google.com">
+				<label for:"name" class="labels">Name: </label>
+				<input class="inputs" id="name" type="text" placeholder="Your name here..."></input>
+				<br>
+				
+				<label for="age" class="labels">Age: </label>
+				<input class="inputs" id="age" type="number" placeholder="E.g. 20"></input>
+				<br>
+
+				<label for="male" class="labels">Gender: </label>
+				<input type="radio" name="gender" value="male" id="male"></input>
+				<label for="male">Male</label>
+				<input type="radio" name="gender" value="female" id="female"></input>
+				<label for="female">Female</label>
+				<br>
+				
+				<label for="email" class="labels">Email: </label>
+				<input class="inputs" id="email" type="email" placeholder="e.g. adamjones@gmail.com"></input>
+				<br>
+				
+				<label for="num" class="labels">Phone No.: </label>
+				<input class="inputs" id="num" type="tel" placeholder="e.g. 03XX-XXXXXXX"></input>
+				<br>
+				
+				<label for="edumenu" class="labels">Education: </label>
+				<select id="edumenu" class="inputs">
+					<option>Matric/O Level</option>
+					<option>Intermediate/A Level</option>
+					<option>Graduate</option>
+				</select>
+				<br>
+				
+				<label for="textarea" class="labels" placeholder="Mention your hobbies, skills, and interests">Tell us about yourself:</label>
+				<br>
+				<textarea class="inputs" id="textarea"></textarea>
+				<br>
+				
+				<label class="labels">Select at least 2 courses:</label><br>
+				
+				<input type="checkbox" id="webdev" name="courses" class="checkboxes"></input>
+				<label for="webdev" class="courses">Web Development</label>
+				<br>
+				
+				<input type="checkbox" id="anddev" name="courses" class="checkboxes"></input>
+				<label for="anddev" class="courses">Android Development</label>
+				<br>
+				
+				<input type="checkbox" id="graphic" name="courses" class="checkboxes"></input>
+				<label for="graphic" class="courses">Graphic Designing</label>
+				<br>
+				
+				<input type="checkbox" id="freel" name="courses" class="checkboxes"></input>
+				<label for="freel" class="courses">Freelancing</label>
+				<br>
+				
+				<input type="checkbox" id="content" name="courses" class="checkboxes"></input>
+				<label for="content" class="courses">Content Writing</label>
+				<br>
+				
+				<input type="checkbox" id="gamedev" name="courses" class="checkboxes"></input>
+				<label for="gamedev" class="courses">Game Development</label>
+				<br>
+				
+				<input type="checkbox" id="mktg" name="courses" class="checkboxes"></input>
+				<label for="mktg" class="courses">Digital Marketing</label>
+				<br>
+				
+				<div id="buttons">
+				<input type="button" value="Submit" class="buttons" id="submitBtn"></input>
+				<input type="reset" value="Clear Form" class="buttons"></input>
+				</div>
+				
+			</form>
+		</section>
+		
+		<footer>
+			<p>Developed by Kazmi Technologies</p>
+			<p>&copy; Copyright</p>
+			<p>For further information, <a href="https://www.google.com">click here.</a></p>
+		</footer>
+	
+	</body>
+
+</html>
